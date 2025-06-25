@@ -90,10 +90,10 @@ const About = () => {
   className="green-pink-gradient p-[1px] rounded-[20px] shadow-card"
 >
   <span className="flex items-center bg-tertiary px-6 py-2 rounded-[20px] font-bold text-white hover:bg-[#707270] transition w-full h-full block">
-    Resume
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 16v-8m0 8l-4-4m4 4l4-4M4 20h16" />
     </svg>
+    Resume
   </span>
 </motion.a>
 </div>
