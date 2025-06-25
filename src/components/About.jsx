@@ -35,7 +35,6 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
-// ...existing code...
 const About = () => {
   return (
     <>
@@ -54,10 +53,8 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
       </motion.p>
-
-      {/* Buttons Row */}
-            {/* Buttons Row */}
-  <div className="mt-8 flex flex-row justify-start gap-4">
+      
+ <div className="mt-8 flex flex-col sm:flex-row justify-start gap-4">
   <motion.a
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.97 }}
